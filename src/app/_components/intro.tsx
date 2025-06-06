@@ -1,4 +1,5 @@
 import { AUTHOR_NAME } from "@/lib/constants";
+import Link from "next/link";
 
 export function Intro() {
   return (
@@ -7,7 +8,8 @@ export function Intro() {
         ran.
       </h1>
       <h4 className="text-center md:text-left text-lg mt-5 md:pl-8">
-        work & thoughts | {AUTHOR_NAME}
+        <Link href={"/blog"}>work</Link> & <Link href={"/blog"}>thoughts</Link>{" "}
+        | {AUTHOR_NAME}
       </h4>
     </section>
   );
