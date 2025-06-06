@@ -3,7 +3,6 @@ import { notFound } from "next/navigation";
 import { getAllPosts, getPostBySlug } from "@/lib/api";
 import { AUTHOR_NAME } from "@/lib/constants";
 import markdownToHtml from "@/lib/markdownToHtml";
-import Alert from "@/app/_components/alert";
 import Container from "@/app/_components/container";
 import Header from "@/app/_components/header";
 import { PostBody } from "@/app/_components/post-body";
@@ -23,7 +22,7 @@ export default async function Post(props: Params) {
   return (
     <main>
       <Container>
-        <Intro />
+        <Intro title="thoughts" />
         <article className="mb-32">
           <PostHeader
             title={post.title}
