@@ -12,7 +12,7 @@ const inter = Poppins({
 });
 
 export const metadata: Metadata = {
-  title: `${AUTHOR_NAME} | Portfolio`,
+  title: `${AUTHOR_NAME}’s portfolio | work & thoughts`,
   description: `work and thoughts by ${AUTHOR_NAME}.`,
   openGraph: {
     images: [HOME_OG_IMAGE_URL],
