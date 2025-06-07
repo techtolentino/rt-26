@@ -5,7 +5,7 @@ export default async function Posts() {
   return (
     <main>
       <Container>
-        <Intro title="thoughts" />
+        <Intro secondaryTitle="thoughts" />
         list of posts
       </Container>
     </main>

@@ -22,7 +22,7 @@ export default async function Post(props: Params) {
   return (
     <main>
       <Container>
-        <Intro title="thoughts" />
+        <Intro secondaryTitle="thoughts" />
         <article className="mb-32">
           <PostHeader
             title={post.title}
